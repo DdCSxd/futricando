@@ -29,7 +29,7 @@ if (isset($_GET['id'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes da Inspeção</title>
     <!-- Referenciando o arquivo CSS externo -->
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="ver_detalhes.css">
 </head>
 <body>
     <div class="container">
