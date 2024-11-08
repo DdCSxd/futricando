@@ -1,0 +1,89 @@
+/* style.css */
+
+/* Definições gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Estilização das informações */
+.info {
+    margin-bottom: 20px;
+}
+
+.info p {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.info strong {
+    color: #333;
+}
+
+/* Estilização de status */
+.status {
+    font-weight: bold;
+    color: green;
+}
+
+.no-status {
+    font-weight: bold;
+    color: red;
+}
+
+/* Estilização da seção de detalhes */
+.details {
+    margin-top: 30px;
+    padding-top: 20px;
+    border-top: 2px solid #eee;
+}
+
+.details p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #555;
+}
+
+.details .section-title {
+    font-size: 18px;
+    margin-top: 15px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Botão de voltar */
+.button {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
